@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alert Dialog</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<div class="main-div">
+  <div class="header-box">
+    <div class="header-elements">
+    <div class="texts">
+    <h1>Alert Dialog</h1>
+    <p>A modal dialog that interrupts the user with important content and expects a response.</p>
+    </div>
+    <div class="view-btn-div">
+        <button id="view-docs" class="view-docs-btn"><a class="viewdocs" href="https://www.figma.com/exit?url=https%3A%2F%2Fui.shadcn.com%2Fdocs%2Fprimitives%2Falert-dialog" target="_blank" >View docs</a></></button>
+    </div>
+    <div class="line1"></div>
+    </div>
+  </div>
+
+  <div id="alertDialog" class="modal">
+    <div class="modal-content">
+      <h5>Are you sure absolutely sure?</h5>
+      <p>This action cannot be undone. This will permanently delete your account and remove your data from our servers.</p>
+    </div>  
+      <div class="modal-buttons">
+        <button id="cancelBtn" class="cancel-btn"><span class="cancel"> Cancel</span></button>
+        <button id="continueBtn" class="continue-btn"><span class="continue"> Continue</span></button>
+      </div>
+  </div>                       
+
+</div>
+  <script src="js/script.js"></script>
+</body>
+</html>
